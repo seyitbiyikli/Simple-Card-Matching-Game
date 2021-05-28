@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C36F3900-4154-47D0-BF9E-26F6A9E3DB69}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>yazlabkelimeoyunufinal</RootNamespace>
+    <AssemblyName>yazlabkelimeoyunufinal</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="2x5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2x5.Designer.cs">
+      <DependentUpon>2x5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kartOyunu3x4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kartOyunu3x4.Designer.cs">
+      <DependentUpon>kartOyunu3x4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kartOyunu4x4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kartOyunu4x4.Designer.cs">
+      <DependentUpon>kartOyunu4x4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kartOyunuGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kartOyunuGiris.Designer.cs">
+      <DependentUpon>kartOyunuGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="2x5.resx">
+      <DependentUpon>2x5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kartOyunu3x4.resx">
+      <DependentUpon>kartOyunu3x4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kartOyunu4x4.resx">
+      <DependentUpon>kartOyunu4x4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kartOyunuGiris.resx">
+      <DependentUpon>kartOyunuGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\balina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayı.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\köpek.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\itfaiyeci.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asci.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doktor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\polis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\öğretmen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\veteriner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dedektif.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bahcivan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saksıbitki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saksicicek.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saksiaycicegi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palmiye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kaktüs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portakalsaksi.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\yazlabkelimeoyunufinal\yazlabkelimeoyunufinal\bin\Debug\yazlabkelimeoyunufinal.exe.config
+C:\Users\User\source\repos\yazlabkelimeoyunufinal\yazlabkelimeoyunufinal\bin\Debug\yazlabkelimeoyunufinal.exe
+C:\Users\User\source\repos\yazlabkelimeoyunufinal\yazlabkelimeoyunufinal\bin\Debug\yazlabkelimeoyunufinal.pdb
+C:\Users\User\source\repos\yazlabkelimeoyunufinal\yazlabkelimeoyunufinal\obj\Debug\yazlabkelimeoyunufinal.csprojAssemblyReference.cache
+C:\Users\User\source\repos\yazlabkelimeoyunufinal\yazlabkelimeoyunufinal\obj\Debug\yazlabkelimeoyunufinal.Form1.resources
+C:\Users\User\source\repos\yazlabkelimeoyunufinal\yazlabkelimeoyunufinal\obj\Debug\yazlabkelimeoyunufinal.Properties.Resources.resources
+C:\Users\User\source\repos\yazlabkelimeoyunufinal\yazlabkelimeoyunufinal\obj\Debug\yazlabkelimeoyunufinal.csproj.GenerateResource.cache
+C:\Users\User\source\repos\yazlabkelimeoyunufinal\yazlabkelimeoyunufinal\obj\Debug\yazlabkelimeoyunufinal.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\yazlabkelimeoyunufinal\yazlabkelimeoyunufinal\obj\Debug\yazlabkelimeoyunufinal.exe
+C:\Users\User\source\repos\yazlabkelimeoyunufinal\yazlabkelimeoyunufinal\obj\Debug\yazlabkelimeoyunufinal.pdb
+C:\Users\User\source\repos\yazlabkelimeoyunufinal\yazlabkelimeoyunufinal\obj\Debug\yazlabkelimeoyunufinal._3x5.resources
+C:\Users\User\source\repos\yazlabkelimeoyunufinal\yazlabkelimeoyunufinal\obj\Debug\yazlabkelimeoyunufinal.kartOyunuGiris.resources
+C:\Users\User\source\repos\yazlabkelimeoyunufinal\yazlabkelimeoyunufinal\obj\Debug\yazlabkelimeoyunufinal.kartOyunu3x4.resources
